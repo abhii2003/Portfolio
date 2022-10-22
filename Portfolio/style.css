@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@300;400&display=swap');
+
+
+
+
+/***********/
+html {
+	overflow-x: hidden;
+	user-select: none;
+}
+
+*{
+	border: 0px;
+}
+.NavBar{
+	padding: 8px;
+	background-color: rgba(34,32,32,1.00);
+	
+}
+
+.NavBarEle
+{
+	text-decoration: none;
+	color: white;
+}
+
+.banner{
+	padding: 60px;
+	background: linear-gradient(45deg, #FFFFFF,#D8FDFB, #D6DAFF,#FFD6EF,#FFFFFF);
+	background-size: 300% 300%;
+	animation: color 2s ease-in-out infinite;
+}
+@keyframes color
+{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 50% 25%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.cpw
+{
+	text-align: center;
+	padding: 10px;
+	font-family: 'Silkscreen', cursive;
+}
+
+.about{
+	padding-top: 100px;
+	padding-bottom: 200px;
+	padding-left: 200px;
+	padding-right: 200px;
+	background-image: url("Resources/pexels-gradienta-6984984.jpg");
+}
+
+#write{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 85px;
+	padding-left: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.photo
+{
+	text-align: center;
+}
+
+.photo img {
+	cursor: zoom-in;
+}
+
+.QUT
+{
+	color:white;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	padding: 20px;
+}
+
+.body
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	text-align: justify;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+
+.row0
+{
+	padding: 2px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.edu
+{
+	text-align: center;
+	background-image: url("Resources/Nav Bar BG.png");
+}
+
+.edubg
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	
+}
+
+.int
+{
+	padding: auto;
+}
+
+.intbanner
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+section
+{
+	position: relative;
+	width: 100%;
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	overflow: hidden;
+}
+
+.swiper-slide 
+{
+	background-position: center;
+	background-size:contain;
+	width: 300px;
+	height: 300px;
+}
+
+.swiper-slide img 
+{
+	display: block;
+	width: 100%;
+}
+
+.photo_title
+{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	padding-top: 1px;
+
+}
+
+
+.contacts , .col1 {
+		display: flex;
+
+}
+.contacts{
+	padding-left: 150px;
+	padding-left: 150px;
+}
+
+
+
