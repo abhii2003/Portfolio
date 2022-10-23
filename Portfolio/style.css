@@ -167,6 +167,7 @@ section
 {
 	display: block;
 	width: 100%;
+
 }
 
 .photo_title
@@ -186,6 +187,11 @@ section
 .contacts{
 	padding-left: 150px;
 	padding-left: 150px;
+}
+
+.photographyimg{
+	width: 200px;
+	height: 100px;
 }
 
 
